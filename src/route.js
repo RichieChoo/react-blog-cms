@@ -10,6 +10,7 @@ import Home from './pages/home/container';
 import Login from './pages/login/container';
 import About from './pages/about/container';
 import User from './pages/user-info/container';
+import Other from './pages/other/container';
 
 import { isLoggedIn } from '../src/utils/auth';
 import {href, history} from "./history";
@@ -24,6 +25,10 @@ const routes = [
     {
         path: '/user',
         component: User
+    },
+    {
+        path: '/other',
+        component: Other
     }
 ];
 

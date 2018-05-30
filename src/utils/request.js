@@ -4,7 +4,7 @@
 import 'es6-promise';
 import 'whatwg-fetch';
 
-import config from '../api-interface';
+import config from '../api';
 
 const requestHeaders = {
     //加上会出错

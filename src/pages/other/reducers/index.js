@@ -5,6 +5,7 @@ import fetchAction from './fetch';
 
 const initialState = fromJS({
     fetchData:{},
+
     fetching:false,
 });
 

@@ -1,6 +1,6 @@
 import actionTypes from '../actionTypes';
 // import * as req from '../../../utils/request';
-// import api from '../../../api-interface';
+// import api from '../../../api';
 // import { getToken } from '../../../utils/auth';
 // import msg from '../../../utils/msg';
 

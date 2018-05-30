@@ -5,7 +5,7 @@ import ViewComponent from './view';
 import * as actions from './actions';
 
 const mapStateToProps = (state) => {
-    const { fetchData} = state.home.toJS();
+    const { fetchData} = state.copy.toJS();
     return { fetchData};
 };
 
