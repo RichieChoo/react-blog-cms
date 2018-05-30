@@ -1,0 +1,6 @@
+#! /bin/bash
+#npm run build
+#echo "build success!"
+pid=$(ps x| grep node| grep scripts/start |awk '{print $1}') && kill -9 ${pid} &&  echo "delete pid ${pid} success!!"
+nohup npm start >/dev/null 2>&1 &
+pidd=$(ps x| grep node| grep start |awk '{print $1}') && echo "start success and New PID is ${pidd}"
